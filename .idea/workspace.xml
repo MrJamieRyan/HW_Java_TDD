@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="766ae42a-9332-4ec4-bf7e-dbb97bae21f5" name="Default Changelist" comment="" />
+    <list default="true" id="766ae42a-9332-4ec4-bf7e-dbb97bae21f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BottleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +30,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XcoXVfgK9o6458Turtb81ijeED" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,51 +45,52 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.calculator_can_divide">
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BottleTest.refill_bottle">
+    <configuration name="BottleTest.check_bottle_empties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Day 1 Homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.calculator_can_add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Day 1 Homework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="calculator_can_add" />
+      <option name="MAIN_CLASS_NAME" value="BottleTest" />
+      <option name="METHOD_NAME" value="check_bottle_empties" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.calculator_can_divide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BottleTest.check_content_reduces" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Day 1 Homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="calculator_can_divide" />
+      <option name="MAIN_CLASS_NAME" value="BottleTest" />
+      <option name="METHOD_NAME" value="check_content_reduces" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.calculator_can_subtract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BottleTest.has_contents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Day 1 Homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="calculator_can_subtract" />
+      <option name="MAIN_CLASS_NAME" value="BottleTest" />
+      <option name="METHOD_NAME" value="has_contents" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.has_second_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BottleTest.refill_bottle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Day 1 Homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="has_second_number" />
+      <option name="MAIN_CLASS_NAME" value="BottleTest" />
+      <option name="METHOD_NAME" value="refill_bottle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaterBottleTest.check_bottle_has_contents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day 1 Homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WaterBottleTest" />
+      <option name="METHOD_NAME" value="check_bottle_has_contents" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.calculator_can_divide" />
-        <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.calculator_can_subtract" />
-        <item itemvalue="JUnit.CalculatorTest.calculator_can_add" />
-        <item itemvalue="JUnit.CalculatorTest.has_second_number" />
+        <item itemvalue="JUnit.BottleTest.refill_bottle" />
+        <item itemvalue="JUnit.BottleTest.check_bottle_empties" />
+        <item itemvalue="JUnit.BottleTest.check_content_reduces" />
+        <item itemvalue="JUnit.BottleTest.has_contents" />
+        <item itemvalue="JUnit.WaterBottleTest.check_bottle_has_contents" />
       </list>
     </recent_temporary>
   </component>
@@ -127,22 +136,26 @@
       <screen x="0" y="23" width="1280" height="736" />
     </state>
     <state x="324" y="257" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1280.736@0.23.1280.736" timestamp="1581355547620" />
-    <state width="1073" height="183" key="GridCell.Tab.0.bottom" timestamp="1581358203178">
+    <state width="1238" height="183" key="GridCell.Tab.0.bottom" timestamp="1581362281252">
       <screen x="0" y="23" width="1280" height="736" />
     </state>
-    <state width="1073" height="183" key="GridCell.Tab.0.bottom/0.23.1280.736@0.23.1280.736" timestamp="1581358203178" />
-    <state width="1073" height="183" key="GridCell.Tab.0.center" timestamp="1581358203177">
+    <state width="1238" height="183" key="GridCell.Tab.0.bottom/0.23.1280.736@0.23.1280.736" timestamp="1581362281252" />
+    <state width="1238" height="183" key="GridCell.Tab.0.center" timestamp="1581362281251">
       <screen x="0" y="23" width="1280" height="736" />
     </state>
-    <state width="1073" height="183" key="GridCell.Tab.0.center/0.23.1280.736@0.23.1280.736" timestamp="1581358203177" />
-    <state width="1073" height="183" key="GridCell.Tab.0.left" timestamp="1581358203176">
+    <state width="1238" height="183" key="GridCell.Tab.0.center/0.23.1280.736@0.23.1280.736" timestamp="1581362281251" />
+    <state width="1238" height="183" key="GridCell.Tab.0.left" timestamp="1581362281251">
       <screen x="0" y="23" width="1280" height="736" />
     </state>
-    <state width="1073" height="183" key="GridCell.Tab.0.left/0.23.1280.736@0.23.1280.736" timestamp="1581358203176" />
-    <state width="1073" height="183" key="GridCell.Tab.0.right" timestamp="1581358203178">
+    <state width="1238" height="183" key="GridCell.Tab.0.left/0.23.1280.736@0.23.1280.736" timestamp="1581362281251" />
+    <state width="1238" height="183" key="GridCell.Tab.0.right" timestamp="1581362281252">
       <screen x="0" y="23" width="1280" height="736" />
     </state>
-    <state width="1073" height="183" key="GridCell.Tab.0.right/0.23.1280.736@0.23.1280.736" timestamp="1581358203178" />
+    <state width="1238" height="183" key="GridCell.Tab.0.right/0.23.1280.736@0.23.1280.736" timestamp="1581362281252" />
+    <state x="178" y="53" key="Maven.ArtifactSearchDialog" timestamp="1581361462979">
+      <screen x="0" y="23" width="1280" height="736" />
+    </state>
+    <state x="178" y="53" key="Maven.ArtifactSearchDialog/0.23.1280.736@0.23.1280.736" timestamp="1581361462979" />
     <state x="222" y="83" width="670" height="676" key="search.everywhere.popup" timestamp="1581355782879">
       <screen x="0" y="23" width="1280" height="736" />
     </state>
